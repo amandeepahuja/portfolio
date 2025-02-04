@@ -1,0 +1,77 @@
+---
+title: VisionTrack
+date: Dec 2024
+description:  A lightweight, high-performance microservice for real-time object detection using YOLOv8 and Ultralytics.
+
+info:
+  - text: GitHub
+    link: https://github.com/amandeepahuja/VisionTrack
+    icon:
+      type: lucide
+      name: github
+---
+
+The VisionTrack microservice is a scalable and efficient solution designed for real-time image and video analysis. It leverages YOLOv8 for high-speed object detection with state-of-the-art accuracy, optimized for low-latency inference and deployment.
+The VisionTrack microservice is designed for applications requiring real-time, scalable, and high-accuracy object recognition in images and videos, making it ideal for security, automation, and AI-driven analytics.
+
+## Features
+
+- Real-Time Object Detection: Processes images and video streams with minimal latency.
+
+- YOLOv8 Integration: Utilizes Ultralytics’ YOLOv8 model for precise and fast object recognition.
+
+- Two-Service Architecture:
+
+  -  Image Upload Service: Accepts and stores images for processing.
+
+  -  Object Detection Service: Detects objects, draws bounding boxes, and returns results.
+
+- Bounding Box Storage & JSON Output: Stores images with detected bounding boxes and returns structured JSON with object coordinates and labels.
+
+- API-Based Microservice: Provides RESTful endpoints for seamless integration with applications.
+
+- Scalable Deployment: Containerized with Docker and deployable on GCP, AWS, and Azure.
+
+- Optimized Inference: Uses TensorRT and ONNX for accelerated model execution.
+
+- Multi-Format Support: Accepts images, video streams, and batch processing requests.
+
+- Efficient Caching & Processing: Implements Redis for caching and async processing for high throughput.
+
+## Architecture & Technical Concepts
+# 1. High-Performance Model Integration
+
+- YOLOv8-based deep learning model for real-time object detection.
+
+- Supports multiple class detection with confidence thresholds.
+
+# 2. API-Driven Design
+
+- Exposes RESTful endpoints for image upload and object detection.
+
+- Implements FastAPI for lightweight and high-speed processing.
+
+# 3. Scalable & Optimized Deployment
+
+- Dockerized for portability and cloud-native deployments.
+
+- Supports GPU acceleration with CUDA and TensorRT.
+
+- Scalable via Kubernetes and serverless platforms like Cloud Run.
+
+# 4. Data Processing & Caching
+
+- Uses Redis for caching inference results to improve response times.
+
+- Supports batch processing for large-scale analysis.
+
+- Stores images with bounding boxes and serves processed results efficiently.
+
+# 5. Cloud & Edge Compatibility
+
+- Can be deployed on edge devices, reducing cloud dependency.
+
+- Works with GCP, AWS, and Azure for seamless cloud integration.
+
+
+

@@ -1,0 +1,16 @@
+[
+  {
+      "id": 2,
+      "duration": "July 2023 – Aug 2024",
+      "company": "PwC India",
+      "title": "Associate Technical Consultant",
+      "description": "Led development of a scalable decision-making platform using microservices, reducing downtime by 30% and boosting scalability by 50%. Leveraged GPT-3.5-turbo for automated code generation, raising developer productivity by 35%."
+  },
+  {
+      "id": 1,
+      "duration": "Jan 2023 – July 2023",
+      "company": "PwC India",
+      "title": "Trainee",
+      "description": "Designed a custom AI-powered customer support solution, reducing query response time by 40% and cutting executive workload by 30%. Developed Python-based automation for reading and responding to emails."
+  }
+]
