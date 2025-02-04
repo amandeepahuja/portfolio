@@ -12,7 +12,6 @@ import { spectreDark } from './src/ec-theme';
 export default defineConfig({
   site: 'https://amandeepahuja.github.io',
   base: '/portfolio',
-  output: 'static',
   integrations: [
     expressiveCode({
       themes: [spectreDark],
