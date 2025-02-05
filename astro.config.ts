@@ -19,10 +19,10 @@ export default defineConfig({
     mdx(),
     sitemap(),
     spectre({
-      name: 'Amandeep Singh',
+      name: 'Amandeep',
       openGraph: {
         home: {
-          title: 'Amandeep Singh'
+          title: 'Portfolio',
         },
         
         projects: {
