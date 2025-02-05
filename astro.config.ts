@@ -10,7 +10,7 @@ import { spectreDark } from './src/ec-theme';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://amandeepahuja.github.io',
+  site: 'https://amandeepahuja.github.io/portfolio',
   // base: '/portfolio',
   integrations: [
     expressiveCode({
