@@ -1,5 +1,12 @@
 [
   {
+      "id": 1,
+      "duration": "Feb 2025 – Present",
+      "company": "CoinCrowd",
+      "title": "Backend Engineer",
+      "description": "Optimized scalable, secure backend systems using Django, DRF, Celery, and GCP—cutting response times by 50% and improving overall system throughput and reliability."
+  },
+  {
       "id": 2,
       "duration": "July 2023 – Aug 2024",
       "company": "PwC India",
@@ -7,7 +14,7 @@
       "description": "Led development of a scalable decision-making platform using microservices, reducing downtime by 30% and boosting scalability by 50%. Leveraged GPT-3.5-turbo for automated code generation, raising developer productivity by 35%."
   },
   {
-      "id": 1,
+      "id": 3,
       "duration": "Jan 2023 – July 2023",
       "company": "PwC India",
       "title": "Trainee",
